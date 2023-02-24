@@ -38,7 +38,7 @@ namespace NewDatabase
 
 
 
-        //task form post request to add new movies to the list
+        //task form post request to add new tasks to the list
         [HttpPost]
         public IActionResult AddEdit(ApplicationResponse mr)
         {
