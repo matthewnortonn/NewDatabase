@@ -55,7 +55,7 @@ namespace NewDatabase
             var application = Context.Responses.Single(x => x.TaskId == id);
             return View("AddEdit", application);
         }
-        //task form post request to add new movies to the list
+        //task form post request to add new tasks to the list
         [HttpPost]
         public IActionResult Edit(ApplicationResponse mr)
         {
